@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:controls="clr-namespace:GurCodesCustomRenderer.Controls"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:GurCodesCustomRenderer" x:Class="GurCodesCustomRenderer.GurCodesCustomRendererPage">
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Entry Text="Welcome to" />
+        <controls:MyEntry Text="Xamarin Forms!" />
+    </StackLayout>
+</ContentPage>
